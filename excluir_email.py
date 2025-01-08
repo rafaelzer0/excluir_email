@@ -3,9 +3,9 @@ import email
 
 imap_servidor = 'imap.gmail.com'
 imap_porta = 993
-login = 'rafaelzerort@gmail.com'
+login = 'seu_email@gmail.com'
 
-with open('senha_rafaelzero.txt') as f:
+with open('sua_senha.txt') as f:
     senha = f.readlines()
 
 senha_do_email = senha[0].strip()
